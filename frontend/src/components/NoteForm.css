@@ -1,0 +1,42 @@
+.note-form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px; 
+    margin: 20px 0;
+  }
+  
+  .note-input,
+  .note-textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .note-input {
+    width: 200px;
+  }
+  
+  .note-textarea {
+    width: 300px;
+    height: 60px;
+    resize: none;
+  }
+  
+  .note-button {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .note-button:hover {
+    background-color: #ff1a1c;
+  }
+  
